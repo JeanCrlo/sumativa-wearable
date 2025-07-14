@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PackTrack Pro</string>
+    <string name="delivery_person">Repartidor</string>
+    <string name="recipient">Receptor</string>
+    <string name="pending_deliveries">Entregas Pendientes</string>
+    <string name="my_packages">Mis Paquetes</string>
+    <string name="confirm_delivery">Confirmar Entrega</string>
+    <string name="report_issue">Reportar Incidencia</string>
+    <string name="rate_delivery">Calificar Entrega</string>
+    <string name="package_delivered">Paquete Entregado</string>
+    <string name="package_in_transit">Paquete en Camino</string>
+    <string name="delivery_confirmed">Entrega Confirmada</string>
+    <string name="wrist_twist_hint">Gira la muñeca para confirmar entrega</string>
+    <string name="notification_channel_name">PackTrack Notifications</string>
+    <string name="notification_channel_description">Notificaciones de entregas y paquetes</string>
+</resources>

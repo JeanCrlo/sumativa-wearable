@@ -1,0 +1,206 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.packtrack.wearos"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature android:name="android.hardware.type.watch" />
+11-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:5:5-64
+11-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:5:19-61
+12
+13    <!-- Permisos necesarios -->
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:8:5-68
+14-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:9:5-66
+15-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:9:22-63
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:10:5-67
+16-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:11:5-79
+17-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="com.google.android.permission.PROVIDE_BACKGROUND" />
+18-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:12:5-88
+18-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:12:22-85
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:13:5-81
+19-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+20-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:14:5-77
+20-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:14:22-74
+21
+22    <permission
+22-->[androidx.core:core:1.12.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\0d020eb7aa46a077d2c743ed19d0a4fc\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+23        android:name="com.packtrack.wearos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.12.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\0d020eb7aa46a077d2c743ed19d0a4fc\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.12.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\0d020eb7aa46a077d2c743ed19d0a4fc\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.packtrack.wearos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.12.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\0d020eb7aa46a077d2c743ed19d0a4fc\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.12.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\0d020eb7aa46a077d2c743ed19d0a4fc\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:16:5-56:19
+29        android:allowBackup="true"
+29-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:17:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.12.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\0d020eb7aa46a077d2c743ed19d0a4fc\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+31        android:dataExtractionRules="@xml/data_extraction_rules"
+31-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:18:9-65
+32        android:extractNativeLibs="false"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:19:9-54
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:20:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:21:9-41
+36        android:roundIcon="@mipmap/ic_launcher"
+36-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:22:9-48
+37        android:supportsRtl="true"
+37-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:23:9-35
+38        android:theme="@android:style/Theme.DeviceDefault" >
+38-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:24:9-59
+39        <uses-library
+39-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:27:9-29:39
+40            android:name="com.google.android.wearable"
+40-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:28:13-55
+41            android:required="true" />
+41-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:29:13-36
+42
+43        <meta-data
+43-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:31:9-33:37
+44            android:name="com.google.android.wearable.standalone"
+44-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:32:13-66
+45            android:value="false" />
+45-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:33:13-34
+46
+47        <activity
+47-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:35:9-44:20
+48            android:name="com.packtrack.wearos.MainActivity"
+48-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:36:13-41
+49            android:exported="true"
+49-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:37:13-36
+50            android:label="@string/app_name"
+50-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:38:13-45
+51            android:theme="@android:style/Theme.DeviceDefault" >
+51-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:39:13-63
+52            <intent-filter>
+52-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:40:13-43:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:41:17-69
+53-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:41:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:42:17-77
+55-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:42:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <service
+59-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:46:9-49:40
+60            android:name="com.packtrack.wearos.services.MobileConnectionService"
+60-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:47:13-61
+61            android:enabled="true"
+61-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:48:13-35
+62            android:exported="false" />
+62-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:49:13-37
+63        <service
+63-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:51:9-54:40
+64            android:name="com.packtrack.wearos.services.NotificationService"
+64-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:52:13-57
+65            android:enabled="true"
+65-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:53:13-35
+66            android:exported="false" />
+66-->C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\AndroidManifest.xml:54:13-37
+67
+68        <activity
+68-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Knigh\.gradle\caches\8.12\transforms\28722fa8b44cc628657a22ccbc634fd2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Knigh\.gradle\caches\8.12\transforms\28722fa8b44cc628657a22ccbc634fd2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Knigh\.gradle\caches\8.12\transforms\28722fa8b44cc628657a22ccbc634fd2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Knigh\.gradle\caches\8.12\transforms\28722fa8b44cc628657a22ccbc634fd2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\fd88954b18cce80ae71eb2f924d9805e\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\fd88954b18cce80ae71eb2f924d9805e\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+75            android:authorities="com.packtrack.wearos.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\fd88954b18cce80ae71eb2f924d9805e\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\fd88954b18cce80ae71eb2f924d9805e\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\fd88954b18cce80ae71eb2f924d9805e\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\fd88954b18cce80ae71eb2f924d9805e\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\fd88954b18cce80ae71eb2f924d9805e\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\1b95c4144ffd612697eea777d39e04d3\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\1b95c4144ffd612697eea777d39e04d3\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\1b95c4144ffd612697eea777d39e04d3\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+85                android:value="androidx.startup" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+86        </provider>
+87
+88        <meta-data
+88-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\a39d4f1e6ea14a4df47f501d30e466b2\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+89            android:name="com.google.android.gms.version"
+89-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\a39d4f1e6ea14a4df47f501d30e466b2\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+90            android:value="@integer/google_play_services_version" />
+90-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\a39d4f1e6ea14a4df47f501d30e466b2\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+91
+92        <receiver
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+94            android:directBootAware="false"
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+95            android:enabled="true"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+96            android:exported="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+97            android:permission="android.permission.DUMP" >
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+102                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+105                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+108                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+109            </intent-filter>
+110        </receiver>
+111    </application>
+112
+113</manifest>

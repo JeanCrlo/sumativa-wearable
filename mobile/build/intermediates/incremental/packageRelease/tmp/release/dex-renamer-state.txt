@@ -1,0 +1,7 @@
+#Sun Jul 13 03:15:26 CST 2025
+base.1=C\:\\Users\\Knigh\\Downloads\\packtrack-pro (1)\\mobile\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
+path.1=classes2.dex
+base.0=C\:\\Users\\Knigh\\Downloads\\packtrack-pro (1)\\mobile\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

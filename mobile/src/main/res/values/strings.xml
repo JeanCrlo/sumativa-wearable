@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DHL WEAR</string>
+    <string name="title_package_status">Estado del Paquete</string>
+    
+    <!-- Estados de paquete -->
+    <string name="status_pending">Pendiente</string>
+    <string name="status_in_transit">En camino</string>
+    <string name="status_delivered">Entregado</string>
+    
+    <!-- Mensajes -->
+    <string name="status_updated">Estado actualizado a: %1$s</string>
+    <string name="notification_title">Actualización de paquete</string>
+    <string name="confirm_receipt">Confirmar recepción</string>
+    <string name="rate_delivery">Valorar entrega</string>
+    
+    <!-- Acciones -->
+    <string name="action_connect">Conectar con dispositivo</string>
+    <string name="action_refresh">Actualizar</string>
+    <string name="action_info">Información</string>
+    <string name="action_update_status">Actualizar estado</string>
+    <string name="action_confirm_receipt">Confirmar recepción</string>
+    
+    <!-- Rating -->
+    <string name="rating_title">¿Cómo valorarías la entrega?</string>
+    <string name="rating_submit">Enviar valoración</string>
+    <string name="rating_skip">Omitir</string>
+    
+    <!-- Mensajes de conexión -->
+    <string name="connecting">Conectando...</string>
+    <string name="connected">Conectado</string>
+    <string name="disconnected">Desconectado</string>
+    <string name="connection_error">Error de conexión</string>
+    <string name="sync_complete">Sincronización completada</string>
+    <string name="sync_failed">Error de sincronización</string>
+    
+    <!-- Mensajería -->
+    <string name="messaging_title">Mensajes con el reloj</string>
+    <string name="message_hint">Escribir mensaje...</string>
+    <string name="type_message">Escribir mensaje...</string>
+    <string name="send_message">Enviar</string>
+    <string name="no_devices">No hay dispositivos conectados para enviar el mensaje</string>
+    <string name="message_sent">Mensaje enviado</string>
+    <string name="message_received">Mensaje recibido</string>
+    <string name="no_messages">No hay mensajes recientes</string>
+    <string name="watch_icon_description">Icono de reloj</string>
+    
+    <!-- Detalles del paquete -->
+    <string name="package_details">Detalles del paquete</string>
+    <string name="package_id">ID de paquete:</string>
+    <string name="package_origin">Origen:</string>
+    <string name="package_destination">Destino:</string>
+    <string name="package_courier">Repartidor:</string>
+</resources>

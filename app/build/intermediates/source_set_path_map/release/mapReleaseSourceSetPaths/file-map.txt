@@ -1,0 +1,60 @@
+com.packtrack.wearos.app-jetified-ui-graphics-release-0 C:\Users\Knigh\.gradle\caches\8.12\transforms\05baca19e1338f34d9477cc1d8affa9f\transformed\jetified-ui-graphics-release\res
+com.packtrack.wearos.app-navigation-common-ktx-2.7.6-1 C:\Users\Knigh\.gradle\caches\8.12\transforms\095cfc0b2100a85a1032cec70c41b63b\transformed\navigation-common-ktx-2.7.6\res
+com.packtrack.wearos.app-core-1.12.0-2 C:\Users\Knigh\.gradle\caches\8.12\transforms\0d020eb7aa46a077d2c743ed19d0a4fc\transformed\core-1.12.0\res
+com.packtrack.wearos.app-jetified-ui-text-release-3 C:\Users\Knigh\.gradle\caches\8.12\transforms\0e8d02db60405874bbb946902d163070\transformed\jetified-ui-text-release\res
+com.packtrack.wearos.app-navigation-common-2.7.6-4 C:\Users\Knigh\.gradle\caches\8.12\transforms\0f6079b9f544c86808c5143fb2833cb2\transformed\navigation-common-2.7.6\res
+com.packtrack.wearos.app-jetified-customview-poolingcontainer-1.0.0-5 C:\Users\Knigh\.gradle\caches\8.12\transforms\0fac4852375b4cdda559750f27e84cb5\transformed\jetified-customview-poolingcontainer-1.0.0\res
+com.packtrack.wearos.app-jetified-core-ktx-1.12.0-6 C:\Users\Knigh\.gradle\caches\8.12\transforms\0fd8dfb06a26b9b458561e9d7c7bf754\transformed\jetified-core-ktx-1.12.0\res
+com.packtrack.wearos.app-jetified-lifecycle-viewmodel-compose-2.7.0-7 C:\Users\Knigh\.gradle\caches\8.12\transforms\13f65015dc3b0613af1e8d70b1e6660f\transformed\jetified-lifecycle-viewmodel-compose-2.7.0\res
+com.packtrack.wearos.app-lifecycle-runtime-2.7.0-8 C:\Users\Knigh\.gradle\caches\8.12\transforms\16bbaf3235867c51a2d85cd5dcb65e1f\transformed\lifecycle-runtime-2.7.0\res
+com.packtrack.wearos.app-jetified-lifecycle-process-2.7.0-9 C:\Users\Knigh\.gradle\caches\8.12\transforms\1b95c4144ffd612697eea777d39e04d3\transformed\jetified-lifecycle-process-2.7.0\res
+com.packtrack.wearos.app-jetified-material-icons-core-release-10 C:\Users\Knigh\.gradle\caches\8.12\transforms\1ec99aebe9d6cd5c5b4188426f7161f3\transformed\jetified-material-icons-core-release\res
+com.packtrack.wearos.app-lifecycle-viewmodel-2.7.0-11 C:\Users\Knigh\.gradle\caches\8.12\transforms\245d152dc6b0f616e655fe6733b447ae\transformed\lifecycle-viewmodel-2.7.0\res
+com.packtrack.wearos.app-jetified-play-services-base-18.0.1-12 C:\Users\Knigh\.gradle\caches\8.12\transforms\28722fa8b44cc628657a22ccbc634fd2\transformed\jetified-play-services-base-18.0.1\res
+com.packtrack.wearos.app-lifecycle-livedata-core-2.7.0-13 C:\Users\Knigh\.gradle\caches\8.12\transforms\2fd27cf47eccb9a90ed89faa1d527745\transformed\lifecycle-livedata-core-2.7.0\res
+com.packtrack.wearos.app-core-runtime-2.2.0-14 C:\Users\Knigh\.gradle\caches\8.12\transforms\31e15ba6044466f208728fac3ec914d7\transformed\core-runtime-2.2.0\res
+com.packtrack.wearos.app-jetified-activity-ktx-1.8.2-15 C:\Users\Knigh\.gradle\caches\8.12\transforms\33070ff9cba86d2c3fa9aaa43beea496\transformed\jetified-activity-ktx-1.8.2\res
+com.packtrack.wearos.app-jetified-runtime-saveable-release-16 C:\Users\Knigh\.gradle\caches\8.12\transforms\3469de8a516316ca872063d5e6ba1631\transformed\jetified-runtime-saveable-release\res
+com.packtrack.wearos.app-lifecycle-livedata-2.7.0-17 C:\Users\Knigh\.gradle\caches\8.12\transforms\397f2f9d62ebd2b971129968dbaa247f\transformed\lifecycle-livedata-2.7.0\res
+com.packtrack.wearos.app-recyclerview-1.3.2-18 C:\Users\Knigh\.gradle\caches\8.12\transforms\39e208faf665dacb666ab92559f25667\transformed\recyclerview-1.3.2\res
+com.packtrack.wearos.app-jetified-profileinstaller-1.3.0-19 C:\Users\Knigh\.gradle\caches\8.12\transforms\44a26bad8db4056f3e78964fefec7686\transformed\jetified-profileinstaller-1.3.0\res
+com.packtrack.wearos.app-jetified-material-icons-extended-release-20 C:\Users\Knigh\.gradle\caches\8.12\transforms\4e20694049ac83c263315899553490eb\transformed\jetified-material-icons-extended-release\res
+com.packtrack.wearos.app-navigation-runtime-ktx-2.7.6-21 C:\Users\Knigh\.gradle\caches\8.12\transforms\4f50cb5f87f5195cb79ab32ec8cebf42\transformed\navigation-runtime-ktx-2.7.6\res
+com.packtrack.wearos.app-jetified-lifecycle-runtime-ktx-2.7.0-22 C:\Users\Knigh\.gradle\caches\8.12\transforms\5760d0d8517e7b6c4bb600da7d87c855\transformed\jetified-lifecycle-runtime-ktx-2.7.0\res
+com.packtrack.wearos.app-jetified-lifecycle-livedata-core-ktx-2.7.0-23 C:\Users\Knigh\.gradle\caches\8.12\transforms\57ef7f1fbc1195a0fbf3648105ee08a8\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.packtrack.wearos.app-jetified-ui-geometry-release-24 C:\Users\Knigh\.gradle\caches\8.12\transforms\5f036789aa10f2c2e0fa1f1591d78d94\transformed\jetified-ui-geometry-release\res
+com.packtrack.wearos.app-percentlayout-1.0.0-25 C:\Users\Knigh\.gradle\caches\8.12\transforms\61291678868a9fe363419544ecf6af8c\transformed\percentlayout-1.0.0\res
+com.packtrack.wearos.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-26 C:\Users\Knigh\.gradle\caches\8.12\transforms\62d5b07ae401661c5dea0e70761c67e0\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.packtrack.wearos.app-media-1.0.0-27 C:\Users\Knigh\.gradle\caches\8.12\transforms\697689fa3731e7c2a6659f3344113aea\transformed\media-1.0.0\res
+com.packtrack.wearos.app-jetified-ui-unit-release-28 C:\Users\Knigh\.gradle\caches\8.12\transforms\6ad9af36a62e9b9b7bfa4ed83c78eb54\transformed\jetified-ui-unit-release\res
+com.packtrack.wearos.app-jetified-compose-navigation-1.3.0-29 C:\Users\Knigh\.gradle\caches\8.12\transforms\7e6bd2240038887595a833728a0d926e\transformed\jetified-compose-navigation-1.3.0\res
+com.packtrack.wearos.app-navigation-runtime-2.7.6-30 C:\Users\Knigh\.gradle\caches\8.12\transforms\813e59384bb0522f0e1cf242c9a55001\transformed\navigation-runtime-2.7.6\res
+com.packtrack.wearos.app-jetified-activity-compose-1.8.2-31 C:\Users\Knigh\.gradle\caches\8.12\transforms\85e757eb3250b9dcf0c7c64df1190bcb\transformed\jetified-activity-compose-1.8.2\res
+com.packtrack.wearos.app-jetified-savedstate-ktx-1.2.1-32 C:\Users\Knigh\.gradle\caches\8.12\transforms\8f2cfc3e7fc393fbd03033fe8ea85d3a\transformed\jetified-savedstate-ktx-1.2.1\res
+com.packtrack.wearos.app-jetified-navigation-compose-2.7.6-33 C:\Users\Knigh\.gradle\caches\8.12\transforms\90a2873edadc6991ba244e2d6f61a4ed\transformed\jetified-navigation-compose-2.7.6\res
+com.packtrack.wearos.app-jetified-play-services-basement-18.0.0-34 C:\Users\Knigh\.gradle\caches\8.12\transforms\a39d4f1e6ea14a4df47f501d30e466b2\transformed\jetified-play-services-basement-18.0.0\res
+com.packtrack.wearos.app-jetified-activity-1.8.2-35 C:\Users\Knigh\.gradle\caches\8.12\transforms\a9c3adcc7cbe18d646382211f7a597f1\transformed\jetified-activity-1.8.2\res
+com.packtrack.wearos.app-jetified-annotation-experimental-1.3.0-36 C:\Users\Knigh\.gradle\caches\8.12\transforms\b36d9c7afdc4e49c9f93850f5af0b1bc\transformed\jetified-annotation-experimental-1.3.0\res
+com.packtrack.wearos.app-jetified-runtime-release-37 C:\Users\Knigh\.gradle\caches\8.12\transforms\b6774bde89cded38f65e2252893d9823\transformed\jetified-runtime-release\res
+com.packtrack.wearos.app-jetified-compose-foundation-1.3.0-38 C:\Users\Knigh\.gradle\caches\8.12\transforms\ba518cd5b66e58c2f9cfd604991318a4\transformed\jetified-compose-foundation-1.3.0\res
+com.packtrack.wearos.app-jetified-ui-tooling-preview-release-39 C:\Users\Knigh\.gradle\caches\8.12\transforms\bf7a36b5d310f87aed79984038827a7c\transformed\jetified-ui-tooling-preview-release\res
+com.packtrack.wearos.app-jetified-material-ripple-release-40 C:\Users\Knigh\.gradle\caches\8.12\transforms\c27ee7acb6977f50cbe1a36bddab78db\transformed\jetified-material-ripple-release\res
+com.packtrack.wearos.app-jetified-compose-material-core-1.3.0-41 C:\Users\Knigh\.gradle\caches\8.12\transforms\ce4fe1fed7976f7d9caa4b5896ba9846\transformed\jetified-compose-material-core-1.3.0\res
+com.packtrack.wearos.app-jetified-lifecycle-viewmodel-ktx-2.7.0-42 C:\Users\Knigh\.gradle\caches\8.12\transforms\d12a343aca828273f072a4be579f4a36\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\res
+com.packtrack.wearos.app-jetified-startup-runtime-1.1.1-43 C:\Users\Knigh\.gradle\caches\8.12\transforms\d283fc6765f204e63699e8a8010266a1\transformed\jetified-startup-runtime-1.1.1\res
+com.packtrack.wearos.app-jetified-ui-util-release-44 C:\Users\Knigh\.gradle\caches\8.12\transforms\d770f431fa21cd46fa1b441156eb2928\transformed\jetified-ui-util-release\res
+com.packtrack.wearos.app-coordinatorlayout-1.0.0-45 C:\Users\Knigh\.gradle\caches\8.12\transforms\dbcf96d4adc6eb1e1242ef553df29b15\transformed\coordinatorlayout-1.0.0\res
+com.packtrack.wearos.app-jetified-foundation-layout-release-46 C:\Users\Knigh\.gradle\caches\8.12\transforms\e14e0fc86c5cf851d5a618f7e19ab1eb\transformed\jetified-foundation-layout-release\res
+com.packtrack.wearos.app-jetified-animation-core-release-47 C:\Users\Knigh\.gradle\caches\8.12\transforms\e90221e5102484f2c7e20e4114ef453a\transformed\jetified-animation-core-release\res
+com.packtrack.wearos.app-jetified-animation-release-48 C:\Users\Knigh\.gradle\caches\8.12\transforms\ec0a626c3ed5c44f7daf6d9e2348ebc0\transformed\jetified-animation-release\res
+com.packtrack.wearos.app-jetified-ui-release-49 C:\Users\Knigh\.gradle\caches\8.12\transforms\ef07f14714a11b4ce9be78168e748125\transformed\jetified-ui-release\res
+com.packtrack.wearos.app-jetified-compose-material-1.3.0-50 C:\Users\Knigh\.gradle\caches\8.12\transforms\f638defe0adb4e286159ce36252bfe3e\transformed\jetified-compose-material-1.3.0\res
+com.packtrack.wearos.app-jetified-foundation-release-51 C:\Users\Knigh\.gradle\caches\8.12\transforms\f8b4dc19c2878cdcb4be52d94d9590b8\transformed\jetified-foundation-release\res
+com.packtrack.wearos.app-jetified-savedstate-1.2.1-52 C:\Users\Knigh\.gradle\caches\8.12\transforms\f90877c36de8046aeabff1b92a2d0e78\transformed\jetified-savedstate-1.2.1\res
+com.packtrack.wearos.app-jetified-emoji2-1.3.0-53 C:\Users\Knigh\.gradle\caches\8.12\transforms\fd88954b18cce80ae71eb2f924d9805e\transformed\jetified-emoji2-1.3.0\res
+com.packtrack.wearos.app-resValues-54 C:\Users\Knigh\Downloads\packtrack-pro (1)\app\build\generated\res\resValues\release
+com.packtrack.wearos.app-packageReleaseResources-55 C:\Users\Knigh\Downloads\packtrack-pro (1)\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.packtrack.wearos.app-packageReleaseResources-56 C:\Users\Knigh\Downloads\packtrack-pro (1)\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.packtrack.wearos.app-release-57 C:\Users\Knigh\Downloads\packtrack-pro (1)\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.packtrack.wearos.app-main-58 C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\res
+com.packtrack.wearos.app-release-59 C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\release\res

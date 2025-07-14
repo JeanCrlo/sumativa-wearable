@@ -1,0 +1,177 @@
+    /**
+     * Recibe mensajes del teléfono y otros dispositivos conectados
+     */
+    override fun onMessageReceived(messageEvent: MessageEvent) {
+        val path = messageEvent.path
+        val data = String(messageEvent.data)
+        
+        Log.d(TAG, "onMessageReceived: Mensaje recibido en path=$path, data=$data")
+        
+        when (path) {
+            "/dhlwear/refresh" -> {
+                // El teléfono solicita una actualización completa
+                runOnUiThread {
+                    binding.connectionStatusTextView.text = getString(R.string.syncing)
+                    binding.connectionStatusTextView.setTextColor(getColor(R.color.status_in_transit))
+                    Toast.makeText(this, "Sincronizando con teléfono...", Toast.LENGTH_SHORT).show()
+                }
+                
+                isConnected = true
+                requestInitialStatus()
+            }
+            "/dhlwear/update_status" -> {
+                // El teléfono envía una actualización de estado directa
+                runOnUiThread {
+                    binding.connectionStatusTextView.text = getString(R.string.syncing)
+                    binding.connectionStatusTextView.setTextColor(getColor(R.color.status_in_transit))
+                }
+                
+                isConnected = true
+                
+                // Solicitar los últimos datos al Data Layer
+                val request = Wearable.getDataClient(this).getDataItems(
+                    Uri.Builder().scheme("wear").path("/dhlwear/status").build()
+                )
+                
+                request.addOnSuccessListener { dataItems ->
+                    processDataItems(dataItems)
+                }
+            }
+            "/dhlwear/connection_status" -> {
+                val connected = data == "connected"
+                isConnected = connected
+                
+                runOnUiThread {
+                    binding.connectionStatusTextView.text = 
+                        if (connected) getString(R.string.connected) 
+                        else getString(R.string.disconnected)
+                    binding.connectionStatusTextView.setTextColor(
+                        if (connected) getColor(R.color.status_delivered)
+                        else getColor(R.color.status_pending)
+                    )
+                        
+                    if (connected) {
+                        Toast.makeText(this, "Teléfono conectado", Toast.LENGTH_SHORT).show()
+                    }
+                }
+            }
+            "/dhlwear/ping" -> {
+                // Recibimos un ping del teléfono, responder con pong
+                isConnected = true
+                val sourceNode = messageEvent.sourceNodeId
+                
+                // Actualizar UI para mostrar conexión activa
+                runOnUiThread {
+                    binding.connectionStatusTextView.text = getString(R.string.connected)
+                    binding.connectionStatusTextView.setTextColor(getColor(R.color.status_delivered))
+                    // Restablecer el tiempo de espera de reconexión si estaba activo
+                    connectionCheckHandler.removeCallbacksAndMessages(null)
+                }
+                
+                // Responder al ping
+                Thread {
+                    try {
+                        val pongData = "pong:${System.currentTimeMillis()}".toByteArray()
+                        Wearable.getMessageClient(this).sendMessage(
+                            sourceNode,
+                            "/dhlwear/pong", 
+                            pongData
+                        )
+                        Log.d(TAG, "Pong enviado a $sourceNode")
+                    } catch (e: Exception) {
+                        Log.e(TAG, "Error al enviar pong: ${e.message}")
+                    }
+                }.start()
+            }
+            "/dhlwear/confirmation_received" -> {
+                // El teléfono confirmó la recepción del gesto de entrega
+                runOnUiThread {
+                    // Mostrar una animación o mensaje visual de confirmación
+                    binding.statusTextView.text = getString(R.string.sync_complete)
+                    binding.statusTextView.setBackgroundResource(R.drawable.circular_background)
+                    binding.statusTextView.setTextColor(getColor(R.color.status_delivered))
+                    
+                    // Desactivar la animación de confirmación en curso si estuviese activa
+                    binding.statusTextView.clearAnimation()
+                    
+                    // Mostrar un mensaje
+                    Toast.makeText(
+                        this,
+                        getString(R.string.confirmation_received),
+                        Toast.LENGTH_LONG
+                    ).show()
+                    
+                    // Actualizar estado de la UI
+                    binding.gestureInstructionTextView.text = getString(R.string.delivery_confirmed)
+                }
+            }
+            "/dhlwear/message" -> {
+                // Recibir mensajes de texto de otros dispositivos
+                try {
+                    // Formato esperado: texto|timestamp|nodoOrigen
+                    val messageParts = data.split("|", limit = 3)
+                    if (messageParts.size >= 3) {
+                        val messageText = messageParts[0]
+                        val timestamp = messageParts[1].toLong()
+                        val sourceNodeId = messageParts[2]
+                        
+                        // Obtener información del nodo de origen
+                        Thread {
+                            try {
+                                // Buscar el nodo para obtener su nombre
+                                val nodeClient = Wearable.getNodeClient(applicationContext)
+                                val nodes = Tasks.await(nodeClient.connectedNodes)
+                                var nodeName = "Desconocido"
+                                
+                                // Encontrar el nombre del nodo que envió el mensaje
+                                for (node in nodes) {
+                                    if (node.id == sourceNodeId) {
+                                        nodeName = node.displayName
+                                        // Actualizar la lista de nodos si es necesario
+                                        if (!connectedNodes.any { it.id == node.id }) {
+                                            runOnUiThread { 
+                                                // Actualizar lista de nodos conectados
+                                                discoverConnectedNodes()
+                                            }
+                                        }
+                                        break
+                                    }
+                                }
+                                
+                                // Formatear mensaje recibido
+                                val formattedMessage = getString(R.string.message_from, nodeName) + ": $messageText"
+                                
+                                // Mostrar notificación y añadir a la lista de mensajes
+                                runOnUiThread {
+                                    // Mostrar toast con el mensaje nuevo
+                                    Toast.makeText(this, getString(R.string.new_message_received), Toast.LENGTH_SHORT).show()
+                                    
+                                    // Añadir el mensaje a la lista
+                                    addMessageToList(formattedMessage)
+                                    
+                                    // Si hay pocos mensajes, hacer scroll automático
+                                    if (messagesList.size <= 3) {
+                                        smoothScrollToMessagingSection()
+                                    }
+                                }
+                                
+                            } catch (e: Exception) {
+                                Log.e(TAG, "Error al procesar mensaje: ${e.message}")
+                                
+                                // Añadir el mensaje con la información limitada que tenemos
+                                runOnUiThread {
+                                    addMessageToList("Nuevo: $messageText")
+                                }
+                            }
+                        }.start()
+                    } else {
+                        // El formato del mensaje no es el esperado, pero aún así lo mostramos
+                        addMessageToList("Mensaje: $data")
+                    }
+                } catch (e: Exception) {
+                    Log.e(TAG, "Error al procesar mensaje: ${e.message}")
+                    addMessageToList("Error en mensaje recibido")
+                }
+            }
+        }
+    }

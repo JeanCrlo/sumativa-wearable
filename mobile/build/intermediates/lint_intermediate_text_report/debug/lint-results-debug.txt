@@ -1,0 +1,195 @@
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\build.gradle:13: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk 34
+        ~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\build.gradle:40: Warning: A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.16.0 [GradleDependency]
+    implementation 'androidx.core:core-ktx:1.12.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\build.gradle:41: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1 [GradleDependency]
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\build.gradle:42: Warning: A newer version of com.google.android.material:material than 1.10.0 is available: 1.12.0 [GradleDependency]
+    implementation 'com.google.android.material:material:1.10.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\build.gradle:43: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\build.gradle:46: Warning: A newer version of com.google.android.gms:play-services-wearable than 18.1.0 is available: 19.0.0 [GradleDependency]
+    implementation 'com.google.android.gms:play-services-wearable:18.1.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\build.gradle:49: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.6.2 is available: 2.9.1 [GradleDependency]
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.2'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\build.gradle:50: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.6.2 is available: 2.9.1 [GradleDependency]
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\build.gradle:53: Warning: A newer version of androidx.navigation:navigation-fragment-ktx than 2.7.5 is available: 2.9.1 [GradleDependency]
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.7.5'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\build.gradle:54: Warning: A newer version of androidx.navigation:navigation-ui-ktx than 2.7.5 is available: 2.9.1 [GradleDependency]
+    implementation 'androidx.navigation:navigation-ui-ktx:2.7.5'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\build.gradle:58: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\build.gradle:59: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\res\values\colors.xml:11: Warning: The resource R.color.primary_light appears to be unused [UnusedResources]
+    <color name="primary_light">#FF4A57</color>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\res\values\colors.xml:18: Warning: The resource R.color.medium_gray appears to be unused [UnusedResources]
+    <color name="medium_gray">#CCCCCC</color>
+           ~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\res\values\strings.xml:15: Warning: The resource R.string.rate_delivery appears to be unused [UnusedResources]
+    <string name="rate_delivery">Valorar entrega</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\res\values\strings.xml:19: Warning: The resource R.string.action_refresh appears to be unused [UnusedResources]
+    <string name="action_refresh">Actualizar</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\res\values\strings.xml:20: Warning: The resource R.string.action_info appears to be unused [UnusedResources]
+    <string name="action_info">Información</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\res\values\strings.xml:25: Warning: The resource R.string.rating_skip appears to be unused [UnusedResources]
+    <string name="rating_skip">Omitir</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\res\values\strings.xml:31: Warning: The resource R.string.connection_error appears to be unused [UnusedResources]
+    <string name="connection_error">Error de conexión</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\res\values\strings.xml:28: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="connecting">Conectando...</string>
+                              ~~~~~~~~~~~~~
+
+   Explanation for issues of type "TypographyEllipsis":
+   You can replace the string "..." with a dedicated ellipsis character,
+   ellipsis character (u2026, &#8230;). This can help make the text more
+   readable.
+
+   https://en.wikipedia.org/wiki/Ellipsis
+
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\res\mipmap-anydpi-v26\ic_launcher.xml:2: Warning: The application adaptive icon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml:2: Warning: The application adaptive roundIcon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "MonochromeLauncherIcon":
+   If android:roundIcon and android:icon are both in your manifest, you must
+   either remove the reference to android:roundIcon if it is not needed; or,
+   supply the monochrome icon in the drawable defined by the android:roundIcon
+   and android:icon attribute.
+
+   For example, if android:roundIcon and android:icon are both in the
+   manifest, a launcher might choose to use android:roundIcon over
+   android:icon to display the adaptive app icon. Therefore, your themed
+   application iconwill not show if your monochrome attribute is not also
+   specified in android:roundIcon.
+
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\java\com\example\dhlwear\mobile\MainActivity.kt:45: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            binding.connectButton.text = "Conectando..."
+                                          ~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\java\com\example\dhlwear\mobile\MainActivity.kt:53: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                        binding.connectButton.text = "Sincronizar"
+                                                      ~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\java\com\example\dhlwear\mobile\MainActivity.kt:62: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                        binding.connectButton.text = "Intentar nuevamente"
+                                                      ~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\java\com\example\dhlwear\mobile\MainActivity.kt:117: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                binding.updateStatusButton.text = "Iniciar entrega"
+                                                   ~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\java\com\example\dhlwear\mobile\MainActivity.kt:125: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                binding.updateStatusButton.text = "Marcar como entregado"
+                                                   ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\java\com\example\dhlwear\mobile\MainActivity.kt:133: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                binding.updateStatusButton.text = "Reiniciar seguimiento"
+                                                   ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\java\com\example\dhlwear\mobile\MainActivity.kt:148: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        binding.lastUpdateTextView.text = "Última actualización: ${dateFormat.format(Date(packageStatus.timestamp))}"
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\java\com\example\dhlwear\mobile\MainActivity.kt:148: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        binding.lastUpdateTextView.text = "Última actualización: ${dateFormat.format(Date(packageStatus.timestamp))}"
+                                           ~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\res\layout\activity_main.xml:16: Warning: Hardcoded string "DHL Logo", should use @string resource [HardcodedText]
+        android:contentDescription="DHL Logo"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\res\layout\activity_main.xml:55: Warning: Hardcoded string "Estado actual:", should use @string resource [HardcodedText]
+                android:text="Estado actual:"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\res\layout\activity_main.xml:76: Warning: Hardcoded string "Última actualización: --:--", should use @string resource [HardcodedText]
+                android:text="Última actualización: --:--"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Knigh\Downloads\packtrack-pro (1)\mobile\src\main\res\layout\activity_main.xml:101: Warning: Hardcoded string "Actualizar estado del paquete", should use @string resource [HardcodedText]
+        android:text="Actualizar estado del paquete"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 34 warnings

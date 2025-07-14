@@ -1,0 +1,71 @@
+com.example.dhlwear.wear-jetified-runtime-release-0 C:\Users\Knigh\.gradle\caches\transforms-3\000da2d053f6e27de10bcf624b5cd994\transformed\jetified-runtime-release\res
+com.example.dhlwear.wear-jetified-emoji2-1.4.0-1 C:\Users\Knigh\.gradle\caches\transforms-3\03eda79803f1d8f11b483e48528f9649\transformed\jetified-emoji2-1.4.0\res
+com.example.dhlwear.wear-jetified-emoji2-views-helper-1.4.0-2 C:\Users\Knigh\.gradle\caches\transforms-3\05341cb15eae56a49cdfc89a3a461d85\transformed\jetified-emoji2-views-helper-1.4.0\res
+com.example.dhlwear.wear-lifecycle-runtime-2.6.2-3 C:\Users\Knigh\.gradle\caches\transforms-3\067b9259a3e789e2f8c903ed816171c0\transformed\lifecycle-runtime-2.6.2\res
+com.example.dhlwear.wear-constraintlayout-2.0.1-4 C:\Users\Knigh\.gradle\caches\transforms-3\08ea969a4b2adfd79ea5554f66b57abc\transformed\constraintlayout-2.0.1\res
+com.example.dhlwear.wear-jetified-ui-util-release-5 C:\Users\Knigh\.gradle\caches\transforms-3\0959eab4c5c8aec0ad800096184af244\transformed\jetified-ui-util-release\res
+com.example.dhlwear.wear-jetified-activity-compose-1.8.0-6 C:\Users\Knigh\.gradle\caches\transforms-3\177c14aaf63f0be9c00e51d7abfb1b7c\transformed\jetified-activity-compose-1.8.0\res
+com.example.dhlwear.wear-jetified-compose-navigation-1.2.1-7 C:\Users\Knigh\.gradle\caches\transforms-3\197251996f67ae978a251cb86da9320b\transformed\jetified-compose-navigation-1.2.1\res
+com.example.dhlwear.wear-lifecycle-livedata-core-2.6.2-8 C:\Users\Knigh\.gradle\caches\transforms-3\1f801317841f5a9d4738cb4eba75ce73\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.dhlwear.wear-jetified-wear-phone-interactions-1.0.0-9 C:\Users\Knigh\.gradle\caches\transforms-3\2535d367541d4b292525feb96844d7ce\transformed\jetified-wear-phone-interactions-1.0.0\res
+com.example.dhlwear.wear-jetified-ui-release-10 C:\Users\Knigh\.gradle\caches\transforms-3\259d93263d1dd1b1aab7345d4eef91ca\transformed\jetified-ui-release\res
+com.example.dhlwear.wear-navigation-runtime-2.6.0-11 C:\Users\Knigh\.gradle\caches\transforms-3\31e645e8c0bccad4618a642e83d0600c\transformed\navigation-runtime-2.6.0\res
+com.example.dhlwear.wear-jetified-compose-material-core-1.2.1-12 C:\Users\Knigh\.gradle\caches\transforms-3\3a1ea66e7082eaa2e37ba3c64b339913\transformed\jetified-compose-material-core-1.2.1\res
+com.example.dhlwear.wear-jetified-startup-runtime-1.1.1-13 C:\Users\Knigh\.gradle\caches\transforms-3\3a7eadd5f0d78b0f343f7fd1dcae476e\transformed\jetified-startup-runtime-1.1.1\res
+com.example.dhlwear.wear-jetified-wear-remote-interactions-1.0.0-14 C:\Users\Knigh\.gradle\caches\transforms-3\434690aee3edbb6146920f60be281dbb\transformed\jetified-wear-remote-interactions-1.0.0\res
+com.example.dhlwear.wear-material-1.10.0-15 C:\Users\Knigh\.gradle\caches\transforms-3\486d9846bf88483b8f43f82806824cba\transformed\material-1.10.0\res
+com.example.dhlwear.wear-jetified-appcompat-resources-1.6.1-16 C:\Users\Knigh\.gradle\caches\transforms-3\4abbeaf6ed2455e74f24f0defacba5fd\transformed\jetified-appcompat-resources-1.6.1\res
+com.example.dhlwear.wear-jetified-foundation-layout-release-17 C:\Users\Knigh\.gradle\caches\transforms-3\4b5e86066a7a9d1da78de71d8a85eb39\transformed\jetified-foundation-layout-release\res
+com.example.dhlwear.wear-jetified-navigation-compose-2.6.0-18 C:\Users\Knigh\.gradle\caches\transforms-3\50309234953ea15f1d95820592a75645\transformed\jetified-navigation-compose-2.6.0\res
+com.example.dhlwear.wear-lifecycle-viewmodel-2.6.2-19 C:\Users\Knigh\.gradle\caches\transforms-3\518896587bbdb165000dc46c0c370e7a\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.dhlwear.wear-coordinatorlayout-1.1.0-20 C:\Users\Knigh\.gradle\caches\transforms-3\59a691024d069991a766b41f3124ff9b\transformed\coordinatorlayout-1.1.0\res
+com.example.dhlwear.wear-jetified-customview-poolingcontainer-1.0.0-21 C:\Users\Knigh\.gradle\caches\transforms-3\5aa14bf345c93d58daee1359f6fd7585\transformed\jetified-customview-poolingcontainer-1.0.0\res
+com.example.dhlwear.wear-jetified-activity-ktx-1.8.0-22 C:\Users\Knigh\.gradle\caches\transforms-3\5d4c2de876cef6416b8a220796657677\transformed\jetified-activity-ktx-1.8.0\res
+com.example.dhlwear.wear-jetified-animation-core-release-23 C:\Users\Knigh\.gradle\caches\transforms-3\5db2814617754bc683ac49f47c2fd72d\transformed\jetified-animation-core-release\res
+com.example.dhlwear.wear-jetified-material-ripple-release-24 C:\Users\Knigh\.gradle\caches\transforms-3\6634e6819b3ae5e7b5ff29a37a1070e9\transformed\jetified-material-ripple-release\res
+com.example.dhlwear.wear-jetified-play-services-basement-18.0.0-25 C:\Users\Knigh\.gradle\caches\transforms-3\6eb35be893d608cdd7e07a407d5e0828\transformed\jetified-play-services-basement-18.0.0\res
+com.example.dhlwear.wear-jetified-savedstate-ktx-1.2.1-26 C:\Users\Knigh\.gradle\caches\transforms-3\6fa5878f5f6145bccefb384a94002598\transformed\jetified-savedstate-ktx-1.2.1\res
+com.example.dhlwear.wear-jetified-play-services-base-18.0.1-27 C:\Users\Knigh\.gradle\caches\transforms-3\77f823bbb19e1a8f71800b9167646b09\transformed\jetified-play-services-base-18.0.1\res
+com.example.dhlwear.wear-drawerlayout-1.1.1-28 C:\Users\Knigh\.gradle\caches\transforms-3\80ffbfbb3ad04069650f8edeb5e83aa5\transformed\drawerlayout-1.1.1\res
+com.example.dhlwear.wear-jetified-compose-foundation-1.2.1-29 C:\Users\Knigh\.gradle\caches\transforms-3\819edca0f3efddb6fcdcdf7a9afba89a\transformed\jetified-compose-foundation-1.2.1\res
+com.example.dhlwear.wear-jetified-ui-text-release-30 C:\Users\Knigh\.gradle\caches\transforms-3\86c33ed7f13875d7cf27e791df88f524\transformed\jetified-ui-text-release\res
+com.example.dhlwear.wear-jetified-lifecycle-viewmodel-compose-2.6.2-31 C:\Users\Knigh\.gradle\caches\transforms-3\86d8e7124c0c57c4e22bc6b07012d258\transformed\jetified-lifecycle-viewmodel-compose-2.6.2\res
+com.example.dhlwear.wear-navigation-common-ktx-2.6.0-32 C:\Users\Knigh\.gradle\caches\transforms-3\877117b57502f92192e41a6db16b0652\transformed\navigation-common-ktx-2.6.0\res
+com.example.dhlwear.wear-jetified-lifecycle-runtime-ktx-2.6.2-33 C:\Users\Knigh\.gradle\caches\transforms-3\8bf2f129df709871022ceed07db509cd\transformed\jetified-lifecycle-runtime-ktx-2.6.2\res
+com.example.dhlwear.wear-jetified-foundation-release-34 C:\Users\Knigh\.gradle\caches\transforms-3\8f601210262077069e1ad87b2ae1b28c\transformed\jetified-foundation-release\res
+com.example.dhlwear.wear-jetified-animation-release-35 C:\Users\Knigh\.gradle\caches\transforms-3\98edf17df49c96cf28d32cd1ff8c599b\transformed\jetified-animation-release\res
+com.example.dhlwear.wear-jetified-lifecycle-viewmodel-savedstate-2.6.2-36 C:\Users\Knigh\.gradle\caches\transforms-3\a6396720d07d4a7c6f136795f955fbdc\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.dhlwear.wear-recyclerview-1.1.0-37 C:\Users\Knigh\.gradle\caches\transforms-3\a6893b31bb404d2dff152ba22bc72200\transformed\recyclerview-1.1.0\res
+com.example.dhlwear.wear-cardview-1.0.0-38 C:\Users\Knigh\.gradle\caches\transforms-3\a868ca28f22ef10d7c6fca576d2cb818\transformed\cardview-1.0.0\res
+com.example.dhlwear.wear-navigation-runtime-ktx-2.6.0-39 C:\Users\Knigh\.gradle\caches\transforms-3\a8b0d27353869f805b3cb772586b0e28\transformed\navigation-runtime-ktx-2.6.0\res
+com.example.dhlwear.wear-jetified-activity-1.8.0-40 C:\Users\Knigh\.gradle\caches\transforms-3\abadbc10762fb382c3b12a78a0d8ef90\transformed\jetified-activity-1.8.0\res
+com.example.dhlwear.wear-jetified-savedstate-1.2.1-41 C:\Users\Knigh\.gradle\caches\transforms-3\afd98ae459e461ec59e212ad4512876a\transformed\jetified-savedstate-1.2.1\res
+com.example.dhlwear.wear-jetified-compose-material-1.2.1-42 C:\Users\Knigh\.gradle\caches\transforms-3\b733ff0578f8c6d8fb42801ee7691323\transformed\jetified-compose-material-1.2.1\res
+com.example.dhlwear.wear-jetified-material-icons-core-release-43 C:\Users\Knigh\.gradle\caches\transforms-3\bac37d3e062b5fc25e0e30e59b1d61db\transformed\jetified-material-icons-core-release\res
+com.example.dhlwear.wear-jetified-ui-unit-release-44 C:\Users\Knigh\.gradle\caches\transforms-3\bde7006243ce93e6722e58b7a5e8c9a3\transformed\jetified-ui-unit-release\res
+com.example.dhlwear.wear-jetified-ui-graphics-release-45 C:\Users\Knigh\.gradle\caches\transforms-3\c1129c83eca686b854fe6e006c6d6f28\transformed\jetified-ui-graphics-release\res
+com.example.dhlwear.wear-jetified-annotation-experimental-1.3.0-46 C:\Users\Knigh\.gradle\caches\transforms-3\c4000a514c05ed99148a7f488e734463\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.dhlwear.wear-jetified-profileinstaller-1.3.0-47 C:\Users\Knigh\.gradle\caches\transforms-3\c64f7b2cf67ef2fc52bcbe83ea9f8fcf\transformed\jetified-profileinstaller-1.3.0\res
+com.example.dhlwear.wear-jetified-lifecycle-viewmodel-ktx-2.6.2-48 C:\Users\Knigh\.gradle\caches\transforms-3\c71e19648dc0899cb0466f55201343f1\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\res
+com.example.dhlwear.wear-lifecycle-livedata-2.6.2-49 C:\Users\Knigh\.gradle\caches\transforms-3\ce790a7e33cf66c97fa4cc90c303cd4e\transformed\lifecycle-livedata-2.6.2\res
+com.example.dhlwear.wear-core-1.12.0-50 C:\Users\Knigh\.gradle\caches\transforms-3\cf82e5f9737112f9ef7c90b53583da30\transformed\core-1.12.0\res
+com.example.dhlwear.wear-jetified-wear-ongoing-1.0.0-51 C:\Users\Knigh\.gradle\caches\transforms-3\d04e97af11e2f1279c3ece0928b03782\transformed\jetified-wear-ongoing-1.0.0\res
+com.example.dhlwear.wear-jetified-core-ktx-1.12.0-52 C:\Users\Knigh\.gradle\caches\transforms-3\d0f92fa2bb5f4e4e9406ec7598570983\transformed\jetified-core-ktx-1.12.0\res
+com.example.dhlwear.wear-jetified-viewpager2-1.0.0-53 C:\Users\Knigh\.gradle\caches\transforms-3\d1c34bc60902c04186017f233687cd5f\transformed\jetified-viewpager2-1.0.0\res
+com.example.dhlwear.wear-transition-1.2.0-54 C:\Users\Knigh\.gradle\caches\transforms-3\d58c2302f0f86411c4416c9daf9451eb\transformed\transition-1.2.0\res
+com.example.dhlwear.wear-jetified-runtime-saveable-release-55 C:\Users\Knigh\.gradle\caches\transforms-3\d95d56b1c604e84f186f68097c8d7e95\transformed\jetified-runtime-saveable-release\res
+com.example.dhlwear.wear-core-runtime-2.2.0-56 C:\Users\Knigh\.gradle\caches\transforms-3\df3fd036bfac03e9f0b46a3e66d1a058\transformed\core-runtime-2.2.0\res
+com.example.dhlwear.wear-jetified-health-services-client-1.0.0-beta03-57 C:\Users\Knigh\.gradle\caches\transforms-3\e57579f0c14a3875c600f69f13727968\transformed\jetified-health-services-client-1.0.0-beta03\res
+com.example.dhlwear.wear-wear-1.3.0-58 C:\Users\Knigh\.gradle\caches\transforms-3\e6317fcb82a614cd227ae9de31424e66\transformed\wear-1.3.0\res
+com.example.dhlwear.wear-jetified-ui-geometry-release-59 C:\Users\Knigh\.gradle\caches\transforms-3\ea49080911e78f1553cf5beed2010c54\transformed\jetified-ui-geometry-release\res
+com.example.dhlwear.wear-fragment-1.3.6-60 C:\Users\Knigh\.gradle\caches\transforms-3\ebf0f8cad3fa4d5ac981fe44951a82eb\transformed\fragment-1.3.6\res
+com.example.dhlwear.wear-jetified-lifecycle-process-2.6.2-61 C:\Users\Knigh\.gradle\caches\transforms-3\f39947e6dd1bb9461f6c8b74ecc7d76f\transformed\jetified-lifecycle-process-2.6.2\res
+com.example.dhlwear.wear-appcompat-1.6.1-62 C:\Users\Knigh\.gradle\caches\transforms-3\f4759e47bd97347bcdac7cd8b51802d8\transformed\appcompat-1.6.1\res
+com.example.dhlwear.wear-navigation-common-2.6.0-63 C:\Users\Knigh\.gradle\caches\transforms-3\f58505363ae3950f9b7e0fb193fcbb52\transformed\navigation-common-2.6.0\res
+com.example.dhlwear.wear-pngs-64 C:\Users\Knigh\Downloads\packtrack-pro (1)\wear\build\generated\res\pngs\release
+com.example.dhlwear.wear-resValues-65 C:\Users\Knigh\Downloads\packtrack-pro (1)\wear\build\generated\res\resValues\release
+com.example.dhlwear.wear-packageReleaseResources-66 C:\Users\Knigh\Downloads\packtrack-pro (1)\wear\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.example.dhlwear.wear-packageReleaseResources-67 C:\Users\Knigh\Downloads\packtrack-pro (1)\wear\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.example.dhlwear.wear-merged_res-68 C:\Users\Knigh\Downloads\packtrack-pro (1)\wear\build\intermediates\merged_res\release
+com.example.dhlwear.wear-main-69 C:\Users\Knigh\Downloads\packtrack-pro (1)\wear\src\main\res
+com.example.dhlwear.wear-release-70 C:\Users\Knigh\Downloads\packtrack-pro (1)\wear\src\release\res

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="140dp"
+    android:height="70dp"
+    android:viewportWidth="140"
+    android:viewportHeight="70">
+
+    <!-- Fondo amarillo DHL -->
+    <path
+        android:fillColor="@color/dhl_yellow"
+        android:pathData="M0,0h140v70h-140z" />
+
+    <!-- Letras DHL en rojo -->
+    <path
+        android:fillColor="@color/dhl_red"
+        android:pathData="M20,15h20v40h-20z" />
+    
+    <path
+        android:fillColor="@color/dhl_red"
+        android:pathData="M45,15h20v40h-20z" />
+    
+    <path
+        android:fillColor="@color/dhl_red"
+        android:pathData="M70,15h20v40h-20zM90,15v40h30v-40z" />
+    
+    <!-- Detalles de las letras D H L -->
+    <path
+        android:fillColor="@color/dhl_yellow"
+        android:pathData="M25,20h10v30h-10v-30z" />
+    
+    <path
+        android:fillColor="@color/dhl_yellow"
+        android:pathData="M50,20h10v10h-10zM50,40h10v10h-10zM50,30h10v10h-10z" />
+    
+    <path
+        android:fillColor="@color/dhl_yellow"
+        android:pathData="M75,20h10v30h-10zM95,20h20v30h-20z" />
+</vector>

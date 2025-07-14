@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Knigh\\.gradle\\daemon\\8.12\\com.packtrack.wearos.app-debug-62:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Knigh\\.gradle\\daemon\\8.12\\com.packtrack.wearos.app-main-64:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Knigh\\.gradle\\daemon\\8.12\\com.packtrack.wearos.app-debug-62:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Knigh\\.gradle\\daemon\\8.12\\com.packtrack.wearos.app-main-64:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Knigh\\.gradle\\daemon\\8.12\\com.packtrack.wearos.app-debug-62:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Knigh\\.gradle\\daemon\\8.12\\com.packtrack.wearos.app-main-64:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.packtrack.wearos.app-debug-62:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.packtrack.wearos.app-main-64:/mipmap-hdpi/ic_launcher.png"
+    }
+]

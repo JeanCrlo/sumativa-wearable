@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores DHL -->
+    <color name="dhl_red">#D40511</color>
+    <color name="dhl_yellow">#FFCC00</color>
+    <color name="dhl_gray">#555555</color>
+    
+    <!-- Colores de la aplicación -->
+    <color name="primary">#D40511</color>
+    <color name="primary_dark">#BF0000</color>
+    <color name="accent">#FFCC00</color>
+    
+    <!-- Colores básicos -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#EEEEEE</color>
+    <color name="dark_gray">#333333</color>
+    <color name="dark_background">#212121</color>
+    <color name="ripple_effect">#44CCCCCC</color>
+    <color name="card_background">#2D2D2D</color>
+    
+    <!-- Colores de estado -->
+    <color name="status_pending">#888888</color>
+    <color name="status_in_transit">#2196F3</color>
+    <color name="status_delivered">#4CAF50</color>
+    <color name="connected_color">#4CAF50</color>
+</resources>

@@ -1,0 +1,8 @@
+C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\java\com\packtrack\wearos\data\Models.kt
+C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\java\com\packtrack\wearos\RecipientScreen.kt
+C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\java\com\packtrack\wearos\DeliveryPersonScreen.kt
+C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\java\com\packtrack\wearos\services\NotificationService.kt
+C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\java\com\packtrack\wearos\ui\theme\Theme.kt
+C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\java\com\packtrack\wearos\sensors\GestureDetector.kt
+C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\java\com\packtrack\wearos\MainActivity.kt
+C:\Users\Knigh\Downloads\packtrack-pro (1)\app\src\main\java\com\packtrack\wearos\services\MobileConnectionService.kt

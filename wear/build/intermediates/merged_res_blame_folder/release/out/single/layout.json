@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.dhlwear.wear-mergeReleaseResources-67:/layout/activity_main.xml",
+        "source": "com.example.dhlwear.wear-main-69:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.wear-mergeReleaseResources-67:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.wear-main-69:\\layout\\activity_main.xml"
+    }
+]

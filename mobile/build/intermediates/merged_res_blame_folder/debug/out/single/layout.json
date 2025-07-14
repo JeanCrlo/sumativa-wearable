@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-mergeDebugResources-48:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-main-51:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.dhlwear.mobile-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.example.dhlwear.mobile-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-mergeDebugResources-48:\\layout\\message_item.xml",
+        "source": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-main-51:\\layout\\message_item.xml"
+    }
+]

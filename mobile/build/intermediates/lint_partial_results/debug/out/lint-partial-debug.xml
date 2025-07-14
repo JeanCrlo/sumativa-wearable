@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.dhlwear.mobile.MainActivity"
+                    boolean="true"/>
+                <entry
+                    name="com.example.dhlwear.mobile.services.WearableListenerService"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="NotificationPermission">
+        <entry
+            name="source"
+            boolean="true"/>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.string.rating_skip"
+            file="${:mobile*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="25"
+            column="13"
+            startOffset="1025"
+            endLine="25"
+            endColumn="31"
+            endOffset="1043"/>
+        <location id="R.color.primary_light"
+            file="${:mobile*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="11"
+            column="12"
+            startOffset="349"
+            endLine="11"
+            endColumn="32"
+            endOffset="369"/>
+        <location id="R.color.medium_gray"
+            file="${:mobile*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="18"
+            column="12"
+            startOffset="597"
+            endLine="18"
+            endColumn="30"
+            endOffset="615"/>
+        <entry
+            name="model"
+            string="color[status_delivered(U),dhl_yellow(U),light_gray(U),black(U),accent(U),dhl_gray(U),status_in_transit(U),white(U),status_pending(U),medium_gray(D),primary_dark(U),dhl_red(U),primary(U),primary_light(D)],drawable[ic_launcher_foreground(U),dhl_logo(U),ic_launcher_background(U)],id[connectionStatusTextView(U),titleTextView(U),statusTextView(U),connectButton(U),logoImageView(U),submitRatingButton(U),updateStatusButton(U),statusCardView(U),ratingContainer(U),confirmReceiptButton(U),lastUpdateTextView(U),ratingBar(U)],layout[activity_main(U)],mipmap[ic_launcher_round(U),ic_launcher(U)],string[status_delivered(U),action_connect(U),confirm_receipt(U),rating_skip(D),title_package_status(U),rate_delivery(D),rating_submit(U),connected(U),app_name(U),action_refresh(D),connection_error(D),disconnected(U),status_in_transit(U),sync_complete(U),sync_failed(U),status_pending(U),action_info(D),status_updated(U),rating_title(U),notification_title(U),connecting(U)],style[TitleText(U),Widget_MaterialComponents_Button(R),Theme_DHLWEAR(U),StatusText(U),DhlButton(U),Theme_MaterialComponents_Light_DarkActionBar(R)];e^b,f^1^b,10^1,1d^f^24^15^35^12^2^2f^8^38^2b^18^11^39^22^17^1a^32^26^21,1e^10^e,1f^10^e,35^5,37^3a^c^a^7^4^3,39^36^7^c;;;"/>
+        <location id="R.string.action_refresh"
+            file="${:mobile*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="19"
+            column="13"
+            startOffset="764"
+            endLine="19"
+            endColumn="34"
+            endOffset="785"/>
+        <location id="R.string.connection_error"
+            file="${:mobile*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="31"
+            column="13"
+            startOffset="1266"
+            endLine="31"
+            endColumn="36"
+            endOffset="1289"/>
+        <location id="R.string.rate_delivery"
+            file="${:mobile*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="15"
+            column="13"
+            startOffset="611"
+            endLine="15"
+            endColumn="33"
+            endOffset="631"/>
+        <location id="R.string.action_info"
+            file="${:mobile*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="20"
+            column="13"
+            startOffset="818"
+            endLine="20"
+            endColumn="31"
+            endOffset="836"/>
+    </map>
+
+</incidents>

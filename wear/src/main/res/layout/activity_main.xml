@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_background"
+    android:padding="0dp"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <!-- Agregamos ScrollView para permitir desplazarse hacia abajo -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:boxedEdges="all">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:padding="8dp">
+            
+            <!-- Fondo circular para efecto visual -->
+            <View
+                android:id="@+id/backgroundCircle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/circular_background"
+                app:layout_constraintBottom_toTopOf="@id/messagingSection"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.9" />
+
+            <!-- Logo DHL -->
+            <ImageView
+                android:id="@+id/logoImageView"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:contentDescription="DHL Logo"
+                android:src="@drawable/dhl_logo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Título del estado -->
+            <TextView
+                android:id="@+id/titleTextView"
+                style="@style/WearTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/delivery_status"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/logoImageView" />
+
+            <!-- Estado actual - Con cardview para efecto elevado -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/statusCardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:elevation="4dp"
+                app:cardBackgroundColor="@color/status_pending"
+                app:cardCornerRadius="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/titleTextView">
+
+                <TextView
+                    android:id="@+id/statusTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/status_pending"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+                
+            <!-- Descripción de acción -->
+            <TextView
+                android:id="@+id/actionDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Esperando recogida"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/statusCardView" />
+
+            <!-- Instrucción de gesto -->
+            <TextView
+                android:id="@+id/gestureInstructionTextView"
+                style="@style/WearText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/gesture_instruction"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/actionDescription" />
+
+            <!-- Botón de cambio de estado -->
+            <androidx.wear.widget.CircularProgressLayout
+                android:id="@+id/circularProgressLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gestureInstructionTextView">
+
+                <Button
+                    android:id="@+id/updateStatusButton"
+                    style="@style/WearButton"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/circular_button"
+                    android:text="@string/update_status"
+                    android:textSize="11sp" />
+
+            </androidx.wear.widget.CircularProgressLayout>
+            
+            <!-- Indicador de desplazamiento -->
+            <ImageView
+                android:id="@+id/scrollDownIndicator"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@string/scroll_down"
+                android:src="@drawable/ic_arrow_down"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/circularProgressLayout" />
+
+            <!-- Sección de mensajería -->
+            <LinearLayout
+                android:id="@+id/messagingSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/scrollDownIndicator">
+
+                <TextView
+                    android:id="@+id/messageSectionTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/messaging_title"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    app:cardBackgroundColor="#333333"
+                    app:cardCornerRadius="12dp">
+
+                    <TextView
+                        android:id="@+id/messagesListView"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:padding="8dp"
+                        android:text="@string/no_messages"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:textSize="12sp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="#333333"
+                    app:cardCornerRadius="12dp"
+                    android:layout_marginBottom="8dp">
+
+                    <EditText
+                        android:id="@+id/messageInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/type_message"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:padding="8dp"
+                        android:textColor="@color/white"
+                        android:textColorHint="#888888"
+                        android:textSize="12sp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <Button
+                    android:id="@+id/sendMessageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="@string/send_message"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <!-- Estado de conexión -->
+            <TextView
+                android:id="@+id/connectionStatusTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/disconnected"
+                android:textColor="@color/status_pending"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/messagingSection" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.wear.widget.BoxInsetLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.packtrack.wearos.app-release-58:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.packtrack.wearos.app-main-59:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.packtrack.wearos.app-release-58:/xml_data_extraction_rules.xml.flat",
+        "source": "com.packtrack.wearos.app-main-59:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.packtrack.wearos.app-release-58:/xml_backup_rules.xml.flat",
+        "source": "com.packtrack.wearos.app-main-59:/xml/backup_rules.xml"
+    }
+]

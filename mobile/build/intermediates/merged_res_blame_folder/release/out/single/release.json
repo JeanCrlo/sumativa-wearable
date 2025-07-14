@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-merged_res-49:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-main-50:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-merged_res-49:\\drawable_dhl_logo.xml.flat",
+        "source": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-main-50:\\drawable\\dhl_logo.xml"
+    },
+    {
+        "merged": "com.example.dhlwear.mobile-merged_res-49:/layout_activity_main.xml.flat",
+        "source": "com.example.dhlwear.mobile-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-merged_res-49:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-main-50:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-merged_res-49:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-main-50:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-merged_res-49:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-main-50:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-merged_res-49:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Knigh\\.gradle\\daemon\\8.5\\com.example.dhlwear.mobile-main-50:\\drawable\\ic_launcher_foreground.xml"
+    }
+]
